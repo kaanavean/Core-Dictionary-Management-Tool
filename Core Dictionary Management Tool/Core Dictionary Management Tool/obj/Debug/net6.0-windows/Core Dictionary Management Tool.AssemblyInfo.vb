@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("Core Dictionary Management Tool"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2960c5f068a27ecc1801ccfc5f7d7132c1ec355a"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca313bbba5f3ddbd59c6d5570258ef8f6c98d40e"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("Core Dictionary Management Tool"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("Core Dictionary Management Tool"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _
