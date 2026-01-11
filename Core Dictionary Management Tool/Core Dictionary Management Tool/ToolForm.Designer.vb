@@ -24,15 +24,18 @@ Partial Class ToolForm
     Private Sub InitializeComponent()
         File_Tree = New TreeView()
         Window_Panel = New Panel()
+        Maximize_Button = New Label()
+        Minimize_Button = New Label()
         Close_Button = New Label()
         Form_Label = New Label()
         Object_Label = New Label()
         Type_Label = New Label()
         Content_Box = New RichTextBox()
         Option_Bar = New MenuStrip()
-        TreeToolStripMenuItem = New ToolStripMenuItem()
-        FileToolStripMenuItem = New ToolStripMenuItem()
-        LightTermEncryptinToolStripMenuItem = New ToolStripMenuItem()
+        Tree_Menu = New ToolStripMenuItem()
+        File_Menu = New ToolStripMenuItem()
+        LTE_Menu = New ToolStripMenuItem()
+        ToolStripMenuItem1 = New ToolStripMenuItem()
         BoxBorder = New PictureBox()
         GetDataContent_Button = New Button()
         QuickSave_Button = New Button()
@@ -58,12 +61,38 @@ Partial Class ToolForm
         ' 
         Window_Panel.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
         Window_Panel.BackColor = Color.FromArgb(CByte(30), CByte(30), CByte(30))
+        Window_Panel.Controls.Add(Maximize_Button)
+        Window_Panel.Controls.Add(Minimize_Button)
         Window_Panel.Controls.Add(Close_Button)
         Window_Panel.Controls.Add(Form_Label)
         Window_Panel.Location = New Point(0, 0)
         Window_Panel.Name = "Window_Panel"
         Window_Panel.Size = New Size(940, 40)
         Window_Panel.TabIndex = 1
+        ' 
+        ' Maximize_Button
+        ' 
+        Maximize_Button.Anchor = AnchorStyles.Top Or AnchorStyles.Right
+        Maximize_Button.AutoSize = True
+        Maximize_Button.Font = New Font("SF UI Display Light", 12.0F, FontStyle.Regular, GraphicsUnit.Point)
+        Maximize_Button.ForeColor = Color.FromArgb(CByte(0), CByte(190), CByte(100))
+        Maximize_Button.Location = New Point(877, 9)
+        Maximize_Button.Name = "Maximize_Button"
+        Maximize_Button.Size = New Size(23, 19)
+        Maximize_Button.TabIndex = 9
+        Maximize_Button.Text = "[ ]"
+        ' 
+        ' Minimize_Button
+        ' 
+        Minimize_Button.Anchor = AnchorStyles.Top Or AnchorStyles.Right
+        Minimize_Button.AutoSize = True
+        Minimize_Button.Font = New Font("SF UI Display Light", 12.0F, FontStyle.Regular, GraphicsUnit.Point)
+        Minimize_Button.ForeColor = Color.FromArgb(CByte(0), CByte(190), CByte(100))
+        Minimize_Button.Location = New Point(854, 10)
+        Minimize_Button.Name = "Minimize_Button"
+        Minimize_Button.Size = New Size(16, 19)
+        Minimize_Button.TabIndex = 8
+        Minimize_Button.Text = "-"
         ' 
         ' Close_Button
         ' 
@@ -130,33 +159,38 @@ Partial Class ToolForm
         Option_Bar.BackColor = Color.FromArgb(CByte(40), CByte(40), CByte(40))
         Option_Bar.Dock = DockStyle.None
         Option_Bar.Font = New Font("SF UI Display Light", 12.0F, FontStyle.Regular, GraphicsUnit.Point)
-        Option_Bar.Items.AddRange(New ToolStripItem() {TreeToolStripMenuItem, FileToolStripMenuItem, LightTermEncryptinToolStripMenuItem})
+        Option_Bar.Items.AddRange(New ToolStripItem() {Tree_Menu, File_Menu, LTE_Menu, ToolStripMenuItem1})
         Option_Bar.Location = New Point(0, 40)
         Option_Bar.Name = "Option_Bar"
         Option_Bar.Size = New Size(940, 40)
         Option_Bar.TabIndex = 5
         Option_Bar.Text = "MenuStrip1"
         ' 
-        ' TreeToolStripMenuItem
+        ' Tree_Menu
         ' 
-        TreeToolStripMenuItem.ForeColor = Color.White
-        TreeToolStripMenuItem.Name = "TreeToolStripMenuItem"
-        TreeToolStripMenuItem.Size = New Size(50, 36)
-        TreeToolStripMenuItem.Text = "Tree"
+        Tree_Menu.ForeColor = Color.White
+        Tree_Menu.Name = "Tree_Menu"
+        Tree_Menu.Size = New Size(50, 36)
+        Tree_Menu.Text = "Tree"
         ' 
-        ' FileToolStripMenuItem
+        ' File_Menu
         ' 
-        FileToolStripMenuItem.ForeColor = Color.White
-        FileToolStripMenuItem.Name = "FileToolStripMenuItem"
-        FileToolStripMenuItem.Size = New Size(43, 36)
-        FileToolStripMenuItem.Text = "File"
+        File_Menu.ForeColor = Color.White
+        File_Menu.Name = "File_Menu"
+        File_Menu.Size = New Size(43, 36)
+        File_Menu.Text = "File"
         ' 
-        ' LightTermEncryptinToolStripMenuItem
+        ' LTE_Menu
         ' 
-        LightTermEncryptinToolStripMenuItem.ForeColor = Color.White
-        LightTermEncryptinToolStripMenuItem.Name = "LightTermEncryptinToolStripMenuItem"
-        LightTermEncryptinToolStripMenuItem.Size = New Size(172, 36)
-        LightTermEncryptinToolStripMenuItem.Text = "Light-Term Encryption"
+        LTE_Menu.ForeColor = Color.White
+        LTE_Menu.Name = "LTE_Menu"
+        LTE_Menu.Size = New Size(172, 36)
+        LTE_Menu.Text = "Light-Term Encryption"
+        ' 
+        ' ToolStripMenuItem1
+        ' 
+        ToolStripMenuItem1.Name = "ToolStripMenuItem1"
+        ToolStripMenuItem1.Size = New Size(12, 36)
         ' 
         ' BoxBorder
         ' 
@@ -253,6 +287,7 @@ Partial Class ToolForm
         Controls.Add(File_Tree)
         Controls.Add(Option_Bar)
         Controls.Add(BoxBorder)
+        DoubleBuffered = True
         FormBorderStyle = FormBorderStyle.None
         MainMenuStrip = Option_Bar
         Name = "ToolForm"
@@ -274,13 +309,16 @@ Partial Class ToolForm
     Friend WithEvents Option_Bar As MenuStrip
     Friend WithEvents Close_Button As Label
     Friend WithEvents Form_Label As Label
-    Friend WithEvents FileToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents TreeToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents LightTermEncryptinToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents File_Menu As ToolStripMenuItem
+    Friend WithEvents Tree_Menu As ToolStripMenuItem
+    Friend WithEvents LTE_Menu As ToolStripMenuItem
     Friend WithEvents BoxBorder As PictureBox
     Friend WithEvents GetDataContent_Button As Button
     Friend WithEvents QuickSave_Button As Button
     Friend WithEvents SizeInfo_Label As Label
     Friend WithEvents Date_Label As Label
     Friend WithEvents Rename_Button As Button
+    Friend WithEvents Minimize_Button As Label
+    Friend WithEvents Maximize_Button As Label
+    Friend WithEvents ToolStripMenuItem1 As ToolStripMenuItem
 End Class
