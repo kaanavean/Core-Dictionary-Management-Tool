@@ -102,15 +102,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Core Dictionary Management Tool",
+              "Title": "Core Dictionary Management Tool.vbproj",
               "DocumentMoniker": "C:\\Users\\deniz\\Documents\\GitHub\\Core-Dictionary-Management-Tool\\Core Dictionary Management Tool\\Core Dictionary Management Tool\\Core Dictionary Management Tool.vbproj",
               "RelativeDocumentMoniker": "Core Dictionary Management Tool\\Core Dictionary Management Tool.vbproj",
               "ToolTip": "C:\\Users\\deniz\\Documents\\GitHub\\Core-Dictionary-Management-Tool\\Core Dictionary Management Tool\\Core Dictionary Management Tool\\Core Dictionary Management Tool.vbproj",
               "RelativeToolTip": "Core Dictionary Management Tool\\Core Dictionary Management Tool.vbproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003380|",
-              "WhenOpened": "2026-01-10T23:27:49.086Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-10T23:27:49.086Z"
             }
           ]
         }
