@@ -7,7 +7,12 @@
     <StartupObject>Sub Main</StartupObject>
     <UseWindowsForms>true</UseWindowsForms>
     <MyType>WindowsForms</MyType>
+    <ApplicationIcon>CDMT-Icon.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="CDMT-Icon.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <Import Include="System.Data" />
@@ -18,6 +23,9 @@
   <ItemGroup>
     <Reference Include="Core Dictionary Module">
       <HintPath>..\..\..\Core-Dictionary-Module\Core Dictionary Module\Core Dictionary Module\bin\Debug\net6.0-windows\Core Dictionary Module.dll</HintPath>
+    </Reference>
+    <Reference Include="neXt Motion Engine">
+      <HintPath>..\..\..\neXt-Motion-Engine\neXt Motion Engine\neXt Motion Engine\bin\Debug\net6.0-windows\neXt Motion Engine.dll</HintPath>
     </Reference>
     <Reference Include="neXt Window Managment System">
       <HintPath>..\..\..\neXt-Window-Managment-System\neXt Window Managment System\neXt Window Managment System\bin\Debug\net6.0-windows\neXt Window Managment System.dll</HintPath>

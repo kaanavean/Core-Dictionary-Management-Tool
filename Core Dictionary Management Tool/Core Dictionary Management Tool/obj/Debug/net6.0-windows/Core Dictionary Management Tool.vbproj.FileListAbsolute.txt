@@ -21,3 +21,8 @@ C:\Users\deniz\Documents\GitHub\Core-Dictionary-Management-Tool\Core Dictionary 
 C:\Users\deniz\Documents\GitHub\Core-Dictionary-Management-Tool\Core Dictionary Management Tool\Core Dictionary Management Tool\obj\Debug\net6.0-windows\Core Dictionary Management Tool.sourcelink.json
 C:\Users\deniz\Documents\GitHub\Core-Dictionary-Management-Tool\Core Dictionary Management Tool\Core Dictionary Management Tool\bin\Debug\net6.0-windows\Core Dictionary Module.dll
 C:\Users\deniz\Documents\GitHub\Core-Dictionary-Management-Tool\Core Dictionary Management Tool\Core Dictionary Management Tool\bin\Debug\net6.0-windows\Core Dictionary Module.pdb
+C:\Users\deniz\Documents\GitHub\Core-Dictionary-Management-Tool\Core Dictionary Management Tool\Core Dictionary Management Tool\obj\Debug\net6.0-windows\Core_Dictionary_Management_Tool.RenameTool.resources
+C:\Users\deniz\Documents\GitHub\Core-Dictionary-Management-Tool\Core Dictionary Management Tool\Core Dictionary Management Tool\obj\Debug\net6.0-windows\Core_Dictionary_Management_Tool.ConvertTool.resources
+C:\Users\deniz\Documents\GitHub\Core-Dictionary-Management-Tool\Core Dictionary Management Tool\Core Dictionary Management Tool\bin\Debug\net6.0-windows\neXt Motion Engine.dll
+C:\Users\deniz\Documents\GitHub\Core-Dictionary-Management-Tool\Core Dictionary Management Tool\Core Dictionary Management Tool\bin\Debug\net6.0-windows\neXt Motion Engine.pdb
+C:\Users\deniz\Documents\GitHub\Core-Dictionary-Management-Tool\Core Dictionary Management Tool\Core Dictionary Management Tool\obj\Debug\net6.0-windows\Core_Dictionary_Management_Tool.CreateTool.resources

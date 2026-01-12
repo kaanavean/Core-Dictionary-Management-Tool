@@ -22,6 +22,7 @@ Partial Class ToolForm
     'Das Bearbeiten mit dem Code-Editor ist nicht möglich.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ToolForm))
         File_Tree = New TreeView()
         Window_Panel = New Panel()
         Maximize_Button = New Label()
@@ -33,8 +34,16 @@ Partial Class ToolForm
         Content_Box = New RichTextBox()
         Option_Bar = New MenuStrip()
         Tree_Menu = New ToolStripMenuItem()
+        SystemTreeToolStripMenuItem = New ToolStripMenuItem()
+        SA_Button = New ToolStripMenuItem()
+        SE_Button = New ToolStripMenuItem()
+        R_Button = New ToolStripMenuItem()
+        MTree_Button = New ToolStripMenuItem()
         File_Menu = New ToolStripMenuItem()
-        LTE_Menu = New ToolStripMenuItem()
+        Create_Button = New ToolStripMenuItem()
+        Convert_Button = New ToolStripMenuItem()
+        Delete_Button = New ToolStripMenuItem()
+        LTE_Button = New ToolStripMenuItem()
         ToolStripMenuItem1 = New ToolStripMenuItem()
         BoxBorder = New PictureBox()
         GetDataContent_Button = New Button()
@@ -161,7 +170,7 @@ Partial Class ToolForm
         Option_Bar.BackColor = Color.FromArgb(CByte(40), CByte(40), CByte(40))
         Option_Bar.Dock = DockStyle.None
         Option_Bar.Font = New Font("SF UI Display Light", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Option_Bar.Items.AddRange(New ToolStripItem() {Tree_Menu, File_Menu, LTE_Menu, ToolStripMenuItem1})
+        Option_Bar.Items.AddRange(New ToolStripItem() {Tree_Menu, File_Menu, LTE_Button, ToolStripMenuItem1})
         Option_Bar.Location = New Point(0, 40)
         Option_Bar.Name = "Option_Bar"
         Option_Bar.Size = New Size(940, 40)
@@ -170,24 +179,75 @@ Partial Class ToolForm
         ' 
         ' Tree_Menu
         ' 
+        Tree_Menu.DropDownItems.AddRange(New ToolStripItem() {SystemTreeToolStripMenuItem, MTree_Button})
         Tree_Menu.ForeColor = Color.White
         Tree_Menu.Name = "Tree_Menu"
         Tree_Menu.Size = New Size(50, 36)
         Tree_Menu.Text = "Tree"
         ' 
+        ' SystemTreeToolStripMenuItem
+        ' 
+        SystemTreeToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {SA_Button, SE_Button, R_Button})
+        SystemTreeToolStripMenuItem.Name = "SystemTreeToolStripMenuItem"
+        SystemTreeToolStripMenuItem.Size = New Size(161, 24)
+        SystemTreeToolStripMenuItem.Text = "System Tree"
+        ' 
+        ' SA_Button
+        ' 
+        SA_Button.Name = "SA_Button"
+        SA_Button.Size = New Size(208, 24)
+        SA_Button.Text = "System Application"
+        ' 
+        ' SE_Button
+        ' 
+        SE_Button.Name = "SE_Button"
+        SE_Button.Size = New Size(208, 24)
+        SE_Button.Text = "System Extention"
+        ' 
+        ' R_Button
+        ' 
+        R_Button.Name = "R_Button"
+        R_Button.Size = New Size(208, 24)
+        R_Button.Text = "Root"
+        ' 
+        ' MTree_Button
+        ' 
+        MTree_Button.Name = "MTree_Button"
+        MTree_Button.Size = New Size(161, 24)
+        MTree_Button.Text = "Manual Tree"
+        ' 
         ' File_Menu
         ' 
+        File_Menu.DropDownItems.AddRange(New ToolStripItem() {Create_Button, Convert_Button, Delete_Button})
         File_Menu.ForeColor = Color.White
         File_Menu.Name = "File_Menu"
         File_Menu.Size = New Size(43, 36)
         File_Menu.Text = "File"
         ' 
-        ' LTE_Menu
+        ' Create_Button
         ' 
-        LTE_Menu.ForeColor = Color.White
-        LTE_Menu.Name = "LTE_Menu"
-        LTE_Menu.Size = New Size(172, 36)
-        LTE_Menu.Text = "Light-Term Encryption"
+        Create_Button.Name = "Create_Button"
+        Create_Button.Size = New Size(206, 24)
+        Create_Button.Text = "Create New Object"
+        ' 
+        ' Convert_Button
+        ' 
+        Convert_Button.Name = "Convert_Button"
+        Convert_Button.Size = New Size(206, 24)
+        Convert_Button.Text = "Convert Object"
+        ' 
+        ' Delete_Button
+        ' 
+        Delete_Button.Name = "Delete_Button"
+        Delete_Button.Size = New Size(206, 24)
+        Delete_Button.Text = "Delete Object"
+        ' 
+        ' LTE_Button
+        ' 
+        LTE_Button.ForeColor = Color.White
+        LTE_Button.Name = "LTE_Button"
+        LTE_Button.Size = New Size(172, 36)
+        LTE_Button.Text = "Light-Term Encryption"
         ' 
         ' ToolStripMenuItem1
         ' 
@@ -291,6 +351,7 @@ Partial Class ToolForm
         Controls.Add(BoxBorder)
         DoubleBuffered = True
         FormBorderStyle = FormBorderStyle.None
+        Icon = CType(resources.GetObject("$this.Icon"), Icon)
         MainMenuStrip = Option_Bar
         Name = "ToolForm"
         Text = "ToolForm"
@@ -313,7 +374,7 @@ Partial Class ToolForm
     Friend WithEvents Form_Label As Label
     Friend WithEvents File_Menu As ToolStripMenuItem
     Friend WithEvents Tree_Menu As ToolStripMenuItem
-    Friend WithEvents LTE_Menu As ToolStripMenuItem
+    Friend WithEvents LTE_Button As ToolStripMenuItem
     Friend WithEvents BoxBorder As PictureBox
     Friend WithEvents GetDataContent_Button As Button
     Friend WithEvents QuickSave_Button As Button
@@ -323,4 +384,12 @@ Partial Class ToolForm
     Friend WithEvents Minimize_Button As Label
     Friend WithEvents Maximize_Button As Label
     Friend WithEvents ToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents SystemTreeToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents MTree_Button As ToolStripMenuItem
+    Friend WithEvents Create_Button As ToolStripMenuItem
+    Friend WithEvents Convert_Button As ToolStripMenuItem
+    Friend WithEvents Delete_Button As ToolStripMenuItem
+    Friend WithEvents SA_Button As ToolStripMenuItem
+    Friend WithEvents SE_Button As ToolStripMenuItem
+    Friend WithEvents R_Button As ToolStripMenuItem
 End Class
