@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\deniz\\Documents\\GitHub\\Core-Dictionary-Management-Tool\\Core Dictionary Management Tool\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7D0FE0E4-A75D-5681-998E-7BE069A104C9}|Core Dictionary Management Tool\\Core Dictionary Management Tool.vbproj|c:\\users\\deniz\\documents\\github\\core-dictionary-management-tool\\core dictionary management tool\\core dictionary management tool\\converttool.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{7D0FE0E4-A75D-5681-998E-7BE069A104C9}|Core Dictionary Management Tool\\Core Dictionary Management Tool.vbproj|solutionrelative:core dictionary management tool\\converttool.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{7D0FE0E4-A75D-5681-998E-7BE069A104C9}|Core Dictionary Management Tool\\Core Dictionary Management Tool.vbproj|c:\\users\\deniz\\documents\\github\\core-dictionary-management-tool\\core dictionary management tool\\core dictionary management tool\\toolform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{7D0FE0E4-A75D-5681-998E-7BE069A104C9}|Core Dictionary Management Tool\\Core Dictionary Management Tool.vbproj|solutionrelative:core dictionary management tool\\toolform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7D0FE0E4-A75D-5681-998E-7BE069A104C9}|Core Dictionary Management Tool\\Core Dictionary Management Tool.vbproj|c:\\users\\deniz\\documents\\github\\core-dictionary-management-tool\\core dictionary management tool\\core dictionary management tool\\toolform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{7D0FE0E4-A75D-5681-998E-7BE069A104C9}|Core Dictionary Management Tool\\Core Dictionary Management Tool.vbproj|solutionrelative:core dictionary management tool\\toolform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D0FE0E4-A75D-5681-998E-7BE069A104C9}|Core Dictionary Management Tool\\Core Dictionary Management Tool.vbproj|c:\\users\\deniz\\documents\\github\\core-dictionary-management-tool\\core dictionary management tool\\core dictionary management tool\\renametool.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{7D0FE0E4-A75D-5681-998E-7BE069A104C9}|Core Dictionary Management Tool\\Core Dictionary Management Tool.vbproj|solutionrelative:core dictionary management tool\\renametool.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D0FE0E4-A75D-5681-998E-7BE069A104C9}|Core Dictionary Management Tool\\Core Dictionary Management Tool.vbproj|c:\\users\\deniz\\documents\\github\\core-dictionary-management-tool\\core dictionary management tool\\core dictionary management tool\\createtool.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{7D0FE0E4-A75D-5681-998E-7BE069A104C9}|Core Dictionary Management Tool\\Core Dictionary Management Tool.vbproj|solutionrelative:core dictionary management tool\\createtool.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D0FE0E4-A75D-5681-998E-7BE069A104C9}|Core Dictionary Management Tool\\Core Dictionary Management Tool.vbproj|c:\\users\\deniz\\documents\\github\\core-dictionary-management-tool\\core dictionary management tool\\core dictionary management tool\\core dictionary management tool.vbproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{7D0FE0E4-A75D-5681-998E-7BE069A104C9}|Core Dictionary Management Tool\\Core Dictionary Management Tool.vbproj|solutionrelative:core dictionary management tool\\core dictionary management tool.vbproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,18 +18,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Core Dictionary Management Tool",
-              "DocumentMoniker": "C:\\Users\\deniz\\Documents\\GitHub\\Core-Dictionary-Management-Tool\\Core Dictionary Management Tool\\Core Dictionary Management Tool\\Core Dictionary Management Tool.vbproj",
-              "RelativeDocumentMoniker": "Core Dictionary Management Tool\\Core Dictionary Management Tool.vbproj",
-              "ToolTip": "C:\\Users\\deniz\\Documents\\GitHub\\Core-Dictionary-Management-Tool\\Core Dictionary Management Tool\\Core Dictionary Management Tool\\Core Dictionary Management Tool.vbproj",
-              "RelativeToolTip": "Core Dictionary Management Tool\\Core Dictionary Management Tool.vbproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003380|",
-              "WhenOpened": "2026-01-12T21:13:32.227Z",
+              "DocumentIndex": 0,
+              "Title": "ToolForm.vb",
+              "DocumentMoniker": "C:\\Users\\deniz\\Documents\\GitHub\\Core-Dictionary-Management-Tool\\Core Dictionary Management Tool\\Core Dictionary Management Tool\\ToolForm.vb",
+              "RelativeDocumentMoniker": "Core Dictionary Management Tool\\ToolForm.vb",
+              "ToolTip": "C:\\Users\\deniz\\Documents\\GitHub\\Core-Dictionary-Management-Tool\\Core Dictionary Management Tool\\Core Dictionary Management Tool\\ToolForm.vb*",
+              "RelativeToolTip": "Core Dictionary Management Tool\\ToolForm.vb*",
+              "ViewState": "AgIAABwBAAAAAAAAAAAQwD8BAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-01-12T23:22:14.638Z",
               "EditorCaption": ""
             },
             {
@@ -50,46 +39,10 @@
               "Title": "ToolForm.vb [Entwurf]",
               "DocumentMoniker": "C:\\Users\\deniz\\Documents\\GitHub\\Core-Dictionary-Management-Tool\\Core Dictionary Management Tool\\Core Dictionary Management Tool\\ToolForm.vb",
               "RelativeDocumentMoniker": "Core Dictionary Management Tool\\ToolForm.vb",
-              "ToolTip": "C:\\Users\\deniz\\Documents\\GitHub\\Core-Dictionary-Management-Tool\\Core Dictionary Management Tool\\Core Dictionary Management Tool\\ToolForm.vb [Entwurf]",
-              "RelativeToolTip": "Core Dictionary Management Tool\\ToolForm.vb [Entwurf]",
+              "ToolTip": "C:\\Users\\deniz\\Documents\\GitHub\\Core-Dictionary-Management-Tool\\Core Dictionary Management Tool\\Core Dictionary Management Tool\\ToolForm.vb [Entwurf]*",
+              "RelativeToolTip": "Core Dictionary Management Tool\\ToolForm.vb [Entwurf]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-01-12T21:02:50.513Z",
-              "EditorCaption": " [Entwurf]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ConvertTool.vb [Entwurf]",
-              "DocumentMoniker": "C:\\Users\\deniz\\Documents\\GitHub\\Core-Dictionary-Management-Tool\\Core Dictionary Management Tool\\Core Dictionary Management Tool\\ConvertTool.vb",
-              "RelativeDocumentMoniker": "Core Dictionary Management Tool\\ConvertTool.vb",
-              "ToolTip": "C:\\Users\\deniz\\Documents\\GitHub\\Core-Dictionary-Management-Tool\\Core Dictionary Management Tool\\Core Dictionary Management Tool\\ConvertTool.vb [Entwurf]",
-              "RelativeToolTip": "Core Dictionary Management Tool\\ConvertTool.vb [Entwurf]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-01-12T20:57:49.732Z",
-              "EditorCaption": " [Entwurf]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CreateTool.vb [Entwurf]",
-              "DocumentMoniker": "C:\\Users\\deniz\\Documents\\GitHub\\Core-Dictionary-Management-Tool\\Core Dictionary Management Tool\\Core Dictionary Management Tool\\CreateTool.vb",
-              "RelativeDocumentMoniker": "Core Dictionary Management Tool\\CreateTool.vb",
-              "ToolTip": "C:\\Users\\deniz\\Documents\\GitHub\\Core-Dictionary-Management-Tool\\Core Dictionary Management Tool\\Core Dictionary Management Tool\\CreateTool.vb [Entwurf]",
-              "RelativeToolTip": "Core Dictionary Management Tool\\CreateTool.vb [Entwurf]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-01-12T20:57:10.014Z",
-              "EditorCaption": " [Entwurf]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RenameTool.vb [Entwurf]",
-              "DocumentMoniker": "C:\\Users\\deniz\\Documents\\GitHub\\Core-Dictionary-Management-Tool\\Core Dictionary Management Tool\\Core Dictionary Management Tool\\RenameTool.vb",
-              "RelativeDocumentMoniker": "Core Dictionary Management Tool\\RenameTool.vb",
-              "ToolTip": "C:\\Users\\deniz\\Documents\\GitHub\\Core-Dictionary-Management-Tool\\Core Dictionary Management Tool\\Core Dictionary Management Tool\\RenameTool.vb [Entwurf]",
-              "RelativeToolTip": "Core Dictionary Management Tool\\RenameTool.vb [Entwurf]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-01-12T20:56:41.849Z",
+              "WhenOpened": "2026-01-12T23:22:03.886Z",
               "EditorCaption": " [Entwurf]"
             }
           ]

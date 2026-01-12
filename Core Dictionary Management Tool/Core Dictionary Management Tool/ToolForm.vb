@@ -298,4 +298,24 @@ Public Class ToolForm
             End If
         End If
     End Sub
+
+    Private Sub Refresh_Button_Click(sender As Object, e As EventArgs) Handles Refresh_Button.Click
+        If Not String.IsNullOrEmpty(_currentTreeRoot) Then
+            Try
+                xela.Tree(File_Tree, _currentTreeRoot)
+                If File_Tree.Nodes.Count > 0 Then
+                    File_Tree.Nodes(0).Expand()
+                End If
+
+                If Not String.IsNullOrEmpty(_currentSelectedPath) Then
+                    LoadTree(_currentSelectedPath)
+                End If
+
+            Catch ex As Exception
+                MessageBox.Show("Error during refresh: " & ex.Message, "Refresh Error")
+            End Try
+        Else
+            _currentTreeRoot = xela.AutoTree(File_Tree, Main.ObjectLevel.Root)
+        End If
+    End Sub
 End Class

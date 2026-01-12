@@ -39,6 +39,7 @@ Partial Class ToolForm
         SE_Button = New ToolStripMenuItem()
         R_Button = New ToolStripMenuItem()
         MTree_Button = New ToolStripMenuItem()
+        Refresh_Button = New ToolStripMenuItem()
         File_Menu = New ToolStripMenuItem()
         Create_Button = New ToolStripMenuItem()
         Convert_Button = New ToolStripMenuItem()
@@ -179,7 +180,7 @@ Partial Class ToolForm
         ' 
         ' Tree_Menu
         ' 
-        Tree_Menu.DropDownItems.AddRange(New ToolStripItem() {SystemTreeToolStripMenuItem, MTree_Button})
+        Tree_Menu.DropDownItems.AddRange(New ToolStripItem() {SystemTreeToolStripMenuItem, MTree_Button, Refresh_Button})
         Tree_Menu.ForeColor = Color.White
         Tree_Menu.Name = "Tree_Menu"
         Tree_Menu.Size = New Size(50, 36)
@@ -189,7 +190,7 @@ Partial Class ToolForm
         ' 
         SystemTreeToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {SA_Button, SE_Button, R_Button})
         SystemTreeToolStripMenuItem.Name = "SystemTreeToolStripMenuItem"
-        SystemTreeToolStripMenuItem.Size = New Size(161, 24)
+        SystemTreeToolStripMenuItem.Size = New Size(180, 24)
         SystemTreeToolStripMenuItem.Text = "System Tree"
         ' 
         ' SA_Button
@@ -213,8 +214,14 @@ Partial Class ToolForm
         ' MTree_Button
         ' 
         MTree_Button.Name = "MTree_Button"
-        MTree_Button.Size = New Size(161, 24)
+        MTree_Button.Size = New Size(180, 24)
         MTree_Button.Text = "Manual Tree"
+        ' 
+        ' Refresh_Button
+        ' 
+        Refresh_Button.Name = "Refresh_Button"
+        Refresh_Button.Size = New Size(180, 24)
+        Refresh_Button.Text = "Refresh Tree"
         ' 
         ' File_Menu
         ' 
@@ -392,4 +399,5 @@ Partial Class ToolForm
     Friend WithEvents SA_Button As ToolStripMenuItem
     Friend WithEvents SE_Button As ToolStripMenuItem
     Friend WithEvents R_Button As ToolStripMenuItem
+    Friend WithEvents Refresh_Button As ToolStripMenuItem
 End Class
