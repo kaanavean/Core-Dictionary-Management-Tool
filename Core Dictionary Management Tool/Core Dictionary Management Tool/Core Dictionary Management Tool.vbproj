@@ -16,6 +16,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Reference Include="Core Dictionary Module">
+      <HintPath>..\..\..\Core-Dictionary-Module\Core Dictionary Module\Core Dictionary Module\bin\Debug\net6.0-windows\Core Dictionary Module.dll</HintPath>
+    </Reference>
     <Reference Include="neXt Window Managment System">
       <HintPath>..\..\..\neXt-Window-Managment-System\neXt Window Managment System\neXt Window Managment System\bin\Debug\net6.0-windows\neXt Window Managment System.dll</HintPath>
     </Reference>

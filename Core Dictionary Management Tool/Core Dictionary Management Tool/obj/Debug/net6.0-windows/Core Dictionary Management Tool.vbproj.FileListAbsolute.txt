@@ -19,3 +19,5 @@ C:\Users\deniz\Documents\GitHub\Core-Dictionary-Management-Tool\Core Dictionary 
 C:\Users\deniz\Documents\GitHub\Core-Dictionary-Management-Tool\Core Dictionary Management Tool\Core Dictionary Management Tool\obj\Debug\net6.0-windows\Core Dictionary Management Tool.genruntimeconfig.cache
 C:\Users\deniz\Documents\GitHub\Core-Dictionary-Management-Tool\Core Dictionary Management Tool\Core Dictionary Management Tool\obj\Debug\net6.0-windows\ref\Core Dictionary Management Tool.dll
 C:\Users\deniz\Documents\GitHub\Core-Dictionary-Management-Tool\Core Dictionary Management Tool\Core Dictionary Management Tool\obj\Debug\net6.0-windows\Core Dictionary Management Tool.sourcelink.json
+C:\Users\deniz\Documents\GitHub\Core-Dictionary-Management-Tool\Core Dictionary Management Tool\Core Dictionary Management Tool\bin\Debug\net6.0-windows\Core Dictionary Module.dll
+C:\Users\deniz\Documents\GitHub\Core-Dictionary-Management-Tool\Core Dictionary Management Tool\Core Dictionary Management Tool\bin\Debug\net6.0-windows\Core Dictionary Module.pdb
