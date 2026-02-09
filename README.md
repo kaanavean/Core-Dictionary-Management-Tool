@@ -1,4 +1,4 @@
-### Core Dictionary Management Tool
+# Core Dictionary Management Tool
 
 The Core Dictionary Management Tool (which I will refer to as CDMT from this point on) is a simple tool for creating, editing, encrypting/decrypting, and converting core dictionaries.
 
